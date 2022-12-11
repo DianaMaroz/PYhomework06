@@ -32,6 +32,7 @@ my_list = list(map(lambda x: sum_digit_for_dig(x), my_list))
 print(f'3 этап: {my_list}')
 my_list = list(set(my_list))
 print(f'4 этап: {my_list}')
+
 # Старое решение
 # - создает список из рандомных четырех значных чисел
 # my_list = []
